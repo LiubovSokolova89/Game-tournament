@@ -16,7 +16,7 @@ public class Game {
         Player player1 = null;
         Player player2 = null;
 
-        for(Player player : players) {
+        for (Player player : players) {
             if (player.getName().equals(name1)) {
                 player1 = player;
             }

@@ -47,7 +47,7 @@ public class GameTest {
     @Test
     public void shouldShowNotRegisteredExceptionFirst() {
         Assertions.assertThrows(NotRegisteredException.class, () -> {
-            game.round("Sveta" , player3.getName());
+            game.round("Sveta", player3.getName());
         });
     }
 
